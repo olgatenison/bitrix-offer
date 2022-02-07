@@ -1,0 +1,141 @@
+:root {
+    --primary-txt-color:#FFFFFF;
+    --secondary-txt-color: #212121;
+    --third-text-color: #757575;
+    --accent-color: #229cd2;
+    --background-grey-color: #F5F4FA;
+    --background-accent-color: #cfe5f3;
+    --background-main-color: #FFFFFF;
+}
+
+h1, 
+h2, 
+h3, 
+h4, 
+h5,
+h6 {
+    margin: 0;
+}
+
+a {
+    display:block;
+}
+
+ul{
+    margin: 0;
+    padding-left: 0;
+}
+img {
+    display: block;
+    max-width:100%; 
+    height: auto;
+}
+p {
+    display: block;
+    margin-bottom: 30px;
+    text-indent: 3ch;
+  }
+body {
+    background-color: var(--background-main-color);
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 0.03em;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 14px;
+}
+.link {
+    text-decoration: none;}
+
+.list {
+    list-style: none;}
+
+.container {
+    width: 1000px;
+    margin: 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.section {
+    padding-top: 60px;
+    padding-bottom: 20px;
+}
+/*header*/
+
+/*hero*/
+.hero {
+    background-position: center;
+    background-color: var(--background-accent-color);
+    text-align: center; 
+    max-width: 1000рх;
+    height: 200px;
+    margin-right: auto;
+    margin-left: auto;
+
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.hero-title {
+    
+    font-size: 44px;
+    font-weight: 900;
+    line-height: 1.36;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--primary-title-color);
+
+    margin: 0 auto;
+    
+    margin-bottom: 30px;
+}
+
+/*intro*/
+.intro-txt {
+    
+    max-width: 600px;
+    text-align: justify;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+/*skills*/
+.section-title {
+    font-size: 33px;
+    font-weight: 900;
+    line-height: 1.36;
+    letter-spacing: 0.06em;
+    color: var(--primary-title-color);
+    align-content: center;
+    
+    margin-bottom: 30px;
+}
+.skiils {
+    background-color: var(--background-accent-color);
+}
+
+.skills-list {
+    max-width: 600px;
+    text-align: justify;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 1.7;
+}
+.offer {
+    
+}
+
+.offer-list {
+    max-width: 600px;
+    text-align: left;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 1.7;
+}
+
+.answer-txt{
+    max-width: 600px;
+    text-align: justify;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+}
