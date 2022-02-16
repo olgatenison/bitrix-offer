@@ -1,5 +1,5 @@
 :root {
-    --primary-txt-color:#FFFFFF;
+    --primary-txt-color:#124e83;
     --secondary-txt-color: #212121;
     --third-text-color: #757575;
     --accent-color: #229cd2;
@@ -35,6 +35,9 @@ p {
     margin-bottom: 30px;
     text-indent: 3ch;
   }
+li {
+    padding-left: 15px; /* Отступ от маркера до текста */
+   }
 body {
     background-color: var(--background-main-color);
     font-family: 'Montserrat', sans-serif;
@@ -50,24 +53,33 @@ body {
     list-style: none;}
 
 .container {
-    width: 1000px;
+    width: 900px;
     margin: 0 auto;
     padding-left: 15px;
     padding-right: 15px;
 }
 .section {
-    padding-top: 60px;
+    padding-top: 40px;
     padding-bottom: 20px;
+    
 }
 /*header*/
 
 /*hero*/
 .hero {
     background-position: center;
-    background-color: var(--background-accent-color);
+    background-color: var(--background-maine-color);
+
+    background-image:    
+    url("../img/offer_landing-hero-bg.png");
+    background-repeat: no-repeat;
+    background-size: 70%;
+      
+    
+
     text-align: center; 
-    max-width: 1000рх;
-    height: 200px;
+    max-width: 1600рх;
+    height: 270px;
     margin-right: auto;
     margin-left: auto;
 
@@ -81,9 +93,10 @@ body {
     line-height: 1.36;
     letter-spacing: 0.06em;
     text-transform: uppercase;
-    color: var(--primary-title-color);
-
-    margin: 0 auto;
+    color: var(--primary-txt-color);
+    margin-top: 130px;
+    margin-left: auto;
+    margin-right: auto;
     
     margin-bottom: 30px;
 }
@@ -95,8 +108,18 @@ body {
     text-align: justify;
     align-items: center;
     margin-left: auto;
-    margin-right: auto;
+    margin-right: 40px;
+    line-height: 1.5;
 
+}
+.txt-accent {
+    font-weight: bold;
+}
+.intro-wraper {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin-bottom: -60px;
 }
 /*skills*/
 .section-title {
@@ -104,15 +127,15 @@ body {
     font-weight: 900;
     line-height: 1.36;
     letter-spacing: 0.06em;
-    color: var(--primary-title-color);
-    align-content: center;
-    
-    margin-bottom: 30px;
-}
-.skiils {
-    background-color: var(--background-accent-color);
+    color: var(--primary-txt-color);
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 50px;
 }
 
+.skills-title {
+     background-color: var(--background-accent-color)
+}
 .skills-list {
     max-width: 600px;
     text-align: justify;
@@ -122,6 +145,13 @@ body {
 }
 .offer {
     
+    background-image:    
+    url("../img/offer_landing-bg003.png");
+    background-repeat: no-repeat;
+    background-size: 70%;
+    height: 1200px;
+    background-position: top center;
+
 }
 
 .offer-list {
@@ -130,12 +160,21 @@ body {
     margin-left: auto;
     margin-right: auto;
     line-height: 1.7;
+    margin-bottom: 150px;
 }
 
 .answer-txt{
-    max-width: 600px;
+    max-width: 450px;
     text-align: justify;
     align-items: center;
-    margin-left: auto;
-    margin-right: auto;
+    margin-left: 390px;
+    line-height: 1.5;
+}
+.footer {
+    background-image:    
+    url("../img/offer_footer.png");
+    background-repeat: no-repeat;
+    background-size: 70%;
+    height: 1200px;
+    background-position: top center;
 }
