@@ -32,7 +32,7 @@ img {
 }
 p {
     display: block;
-    margin-bottom: 30px;
+    
     text-indent: 3ch;
   }
 li {
@@ -47,10 +47,12 @@ body {
     font-size: 14px;
 }
 .link {
-    text-decoration: none;}
+    text-decoration: none;
+}
 
 .list {
-    list-style: none;}
+    list-style: none;
+}
 
 .container {
     width: 900px;
@@ -64,7 +66,32 @@ body {
     
 }
 /*header*/
-
+.navigation{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.serch {
+    display: flex;
+    align-items: center; 
+    color: #229cd2;
+    font-weight: 500;
+    font-size: 16px;
+}
+.serch-wraper{
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   margin-left: 16px;
+   
+   font-size: 18px;
+   padding: 0 30px;
+   border: 1px solid #ebebeb;
+   background-color: #ebebeb;
+   box-sizing: border-box;
+   border-radius: 10px;
+   
+}
 /*hero*/
 .hero {
     background-position: center;
@@ -114,6 +141,7 @@ body {
 }
 .txt-accent {
     font-weight: bold;
+    color: #212121;
 }
 .intro-wraper {
     justify-content: center;
@@ -149,8 +177,8 @@ body {
     url("../img/offer_landing-bg003.png");
     background-repeat: no-repeat;
     background-size: 70%;
-    height: 1200px;
     background-position: top center;
+    
 
 }
 
@@ -168,13 +196,41 @@ body {
     text-align: justify;
     align-items: center;
     margin-left: 390px;
-    line-height: 1.5;
+    line-height: 1.5; 
+    margin-bottom: 80px;
 }
 .footer {
+    padding-top: 60px;
     background-image:    
     url("../img/offer_footer.png");
     background-repeat: no-repeat;
     background-size: 70%;
-    height: 1200px;
+    
     background-position: top center;
+
+    
+}
+.footer-adress{
+    display: flex;
+    justify-content: space-between;
+}
+.footer-adress-list{
+    
+    max-width: 200px;
+    font-style: normal;
+    
+}
+.footer-adress-main{
+margin-bottom: 20px;
+}
+.footer-adress-link{
+    color: #212121;
+    font-weight: 500;
+    text-align: left;
+    line-height: 1.5;
+}
+
+.team-list__social-list{
+    display: flex;
+    
 }
